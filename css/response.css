@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@media all and (max-width:1860px){
+    .appBar { right:30px; }
+    .appBar.addAppBar { right:30px; }
+}
+
+@media all and (max-width:1250px){
+    #main #gallerySection .wrap .gap .container > ul > li { margin-bottom:50px; }
+}
+
+@media all and (max-width:1100px){
+    #header .wrap .gap .container { padding:0 15px; }
+    #header .wrap .gap .container ul li.mobileHidden { display: none; }
+
+    .appBar { top:24px; right:15px; width:26px; height:22px; }
+    .appBar .appBar-wrap > a.appBarBtn { display:block; width:26px; height:22px; /* padding:10px 0; */ }
+    .appBar .appBar-wrap > a.appBarBtn > span > i.appBar-line { height:4px; }
+    .appBar .appBar-wrap > a.appBarBtn > span > i.appBar-line0 { top:0; left:50%; margin-left:-13px; }
+    .appBar .appBar-wrap > a.appBarBtn > span > i.appBar-line1 { top:50%; left:50%; margin-top:-2px; margin-left:-13px; }
+    .appBar .appBar-wrap > a.appBarBtn > span > i.appBar-line2 { bottom:0; left:50%; margin-left:-13px; }
+    .appBar.addAppBar { right:15px; }    
+
+    #main #mainSection .wrap .container .content .title h2 { font-size: 50px; text-indent: 80px; margin-top:-150px; }
+
+    #main #profileSection .wrap .gap .container .content .image_wrap { float: none; width: 60%; margin:0 auto; }
+    #main #profileSection .wrap .gap .container .content .text_wrap { float: none; width: 60%;  padding-top: 20px; margin:0 auto; }
+    
+    #main #gallerySection .wrap .gap .container > ul > li > div { margin:0 15px; }
+}
+
+@media all and (max-width:1024px){
+    #main #gallerySection .wrap { padding:90px 0 50px 0; }
+    #main #gallerySection .wrap .gap .container > ul > li { width:50%; margin-bottom:30px; }
+}
+
+@media all and (max-width:800px){
+    #main #mainSection .wrap .container .content .title h2 { font-size: 44px; text-indent: 50px; margin-top:-150px; }
+
+    #main #profileSection { padding:80px 0; }
+}
+
+@media all and (max-width:600px){
+    #header .wrap .gap .container ul li:nth-child(1) div h2 a { font-size:24px; line-height: 70px; }
+
+    #main #mainSection .wrap .container .content .title h2 { font-size: 38px; text-indent: 30px; margin-top:-150px; }
+
+    #main #profileSection .wrap .gap .container .content .image_wrap { float: none; width: 90%; margin:0 auto; }
+    #main #profileSection .wrap .gap .container .content .image_wrap div span { height: 450px; }
+    #main #profileSection .wrap .gap .container .content .text_wrap { float: none; width: 90%;  padding-top: 20px; margin:0 auto; }
+
+    #main #gallerySection .wrap { padding:60px 0 50px 0; }
+    #main #gallerySection .wrap .gap .container > ul > li { width:100%; margin-bottom:15px; }
+
+    #main #slideSection .section2-wrap .section2-slide-container .pageBtn_wrap ul li { display: inline-block; width:10px; height:100%; padding:0 8px; }
+}
+
+@media all and (max-width:400px){
+
+    #main #slideSection .section2-wrap .section2-slide-container .pageBtn_wrap ul li { display: inline-block; width:10px; height:100%; padding:0 5px; }
+    
+
+    #main #mainSection .wrap .container .content .title h2 { font-size: 34px; text-indent: 30px; margin-top:-150px; }
+
+    #main #profileSection { padding:40px 0; }
+    #main #profileSection .wrap .gap .container .content .image_wrap div span { height: 280px; }
+}
