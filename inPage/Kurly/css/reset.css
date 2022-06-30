@@ -1,0 +1,38 @@
+@charset "utf-8";
+  
+* { padding:0; margin:0; vertical-align:top; border:0; }
+html,body { width:100%; height:100%;  }
+html { overflow-y:scroll; overflow-x:hidden; }
+body { font:400 16px/1 'Nanum Gothic'; color:#444; background:#fff; -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%; text-size-adjust:100%;  overflow:hidden; }
+a { color:#444; text-shadow:none; font-style:normal; text-decoration:none; box-shadow:none; font-weight:normal; }
+h1,h2,h3,h4,h5,h6 { font-weight:normal; font-size:14px; text-shadow: none; }
+strong,b { font-weight:normal; }
+i,em,address { font-style:normal; }
+ul { list-style:none; }
+input { display:block; border:0; -webkit-appearance:none; appearance:none;  -webkit-box-shadow:none; box-shadow:none; -webkit-text-shadow:none;  text-shadow:none; }
+
+button,
+input[type='text'],
+input[type='submit'],           /*어피어런스*/
+input[type='button'] { -webkit-appearance:none; appearance:none; display:block; border-radius:0; -webkit-box-shadow:none; box-shadow:none; -webkit-text-shadow:none;  text-shadow:none; }
+
+button,
+input[type='submit'],
+input[type='button'] { display: block; cursor: pointer; height: 45px; width: 100%; background: #fff; color: #555; border: 1px solid #ddd; box-sizing: border-box; }
+
+input[type='checkbox'] { display:inline-block; cursor: pointer; border:1px solid #999; width: 16px; height: 16px; box-sizing: border-box; }
+label { display:inline-block; cursor: pointer; text-shadow: none; font-weight: normal; font-style:normal; color:#555; font-size:14px; }
+
+.fixedclear:after { content:''; display: block; clear: both; } 
+.blind { display: block; text-indent:-2000px; overflow: hidden; }
+.hidden { display: none; }
+
+table { border-collapse: collapse; }
+th,td { vertical-align: middle; }
+
+[data-role='button']{
+	box-shadow:none;
+}
+
+
+

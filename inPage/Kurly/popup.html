@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마켓컬리 팝업창</title>
+
+    <link href='./css/reset.css' rel='stylesheet'>
+
+    <style>
+        .popupWrap { width: 100%; }
+        .popupWrap form { width: 100%; }
+        .popupWrap form .popupImage { width: 100%; }
+        .popupWrap form .popupImage img { width: 100%; }
+        .popupWrap form .popupFooter { width: auto; padding:0 10px; background-color: #f9f9f9; height: 30px; }
+        .popupWrap form .popupFooter span { display: inline-block; line-height: 30px; float: left; height:30px; font-size: 13px; color:#555; }
+        .popupWrap form .popupFooter span input[type='checkbox'] { margin-top:7px; border-radius: 2px; border:1px solid #999; display: inline-block; width: 16px; height:16px; outline: 0; }
+        .popupWrap form .popupFooter span input[type='checkbox']:checked { overflow: hidden; background:url(./images/ico_checkbox_checked.png) no-repeat 50% 50%; border:1px solid #5f0081; background-size: 16px 16px; }
+        .popupWrap form .popupFooter span input[type='checkbox']:focus { outline: 0; }
+        .popupWrap form .popupFooter a { float:right; display: inline-block; height: 30px; line-height: 30px; color:#555; outline: 0; }
+        .popupWrap form .popupFooter a:hover { color:#000; }
+    </style>
+
+    <script>
+
+        //쿠키설정 함수
+        function setCookie( name, value, expiredays ){  //쿠키 매개변수
+            //날짜 객체
+            var toDay = new Date(); //GMT(표준시)
+
+                //alert( toDay ); //오늘날짜와 현재시간
+                //alert( toDay.getDate() );   //2
+                //셋팅날짜 = 2(날짜만) + 1(expiredays);
+                //날짜가 더해져서 새로운 날짜로 변경
+                toDay.setDate( toDay.getDate() + expiredays );
+                //alert( toDay ); //오늘날짜와 현재시간
+
+                //변경된 날짜를 웹 브라우저의 메모리 쿠키에 저장된다.
+                document.cookie = name + '=' + value + '; path=/; expires=' + toDay.toGMTString() + ';'
+
+        }
+
+        //닫기 하면 쿠키 설정 하고 닫는다.
+        function closeFn(){
+            //체크박스가 체크(true)되면 쿠키설정
+            if( popupForm.closeCheck.checked ){ //체크박스 체크여부 참(true)이면
+                //setCookie('popup_2020_09_02','no','만료일(expire day)은 오늘부터 + 1일');    //체크가 되는 경우만 쿠키설정 함수 호출 실행
+                setCookie('popup_2020_09_02', 'no', 1); //쿠키의 아규먼트(전달인자)
+            }
+            window.close(); //팝업창 닫기(체크가 되는 경우와 안된 경우 모두 닫기)
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class='popupWrap'>
+        <form name='popupForm'>
+            <div class='popupImage'>
+                <img src='./images/main1_slide03.jpg' alt=''>
+            </div>
+            <div class='popupFooter fixedclear'>
+                <span>
+                    <input type='checkbox' name='closeCheck' id='closeCheck' value='1'>
+                    <label for='closeCheck'>오늘 하루동안 열리지 않음.</label>
+                </span>
+                <a href='javascript:' onclick='closeFn();'>닫기</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

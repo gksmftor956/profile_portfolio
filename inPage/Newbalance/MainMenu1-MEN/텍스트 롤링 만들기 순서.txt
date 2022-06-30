@@ -1,0 +1,51 @@
+-텍스트 롤링
+1. html
+	notice, notice0~4 클래스 넣어주기
+2. css
+	ul,li에 높이 잡아주고 ul에 margin-top:총 높이-글자높이 나누기2,
+	a에 블럭잡고 패딩 넣어서 가운데정렬하고 background #111, 섹션2와 ul에 overflow:hidden 잠시 지우고 확인하기(섹션2 z-index 2번 섹션4는 1번으로 글씨 밑에있는거 확인하기)
+	ul에 relaive,hidden,margin-left로 변경 li에 absolute,z-index2번,top:29px
+	li.notice0번 만들어서 z-index 1번으로 기본 깔아주고 top:0;
+	span에 white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+
+3. jQuery
+$(function(){
+	
+	var s2Cnt = 0;
+	
+	//1. 공지사항 메인 함수
+	function noticeMainFn(){
+		$('.notice').animate({top:29},0).css({zIndex:2});
+		$('.notice').eq(s2Cnt==0?4:s2Cnt-1).animate({top:0},0).css({zIndex:1});
+		$('.notice').eq(s2Cnt).animate({top:29},0).animate({top:0},600);
+	}
+	
+	//2. 다음 공지사항 카운트 함수
+	function nextNoticeCountFn(){
+		s2Cnt++;
+		if( s2Cnt > 4 ){
+			s2Cnt=0;
+		}
+		noticeMainFn();
+	}
+	
+	//3. 자동 타이머 3초간격
+	setInterval(nextNoticeCountFn,3000);
+	
+});
+
+
+
+
+		//noticeCnt가 0인 경우는 4로 설정하는 조건문
+		//3황연산자 조건문?참:거짓
+		//if(noticeCnt==0){4;}else{noticeCnt-1;}
+		/*
+		if(noticeCnt==0){
+			4;
+		}else{
+			k=noticeCnt-1;
+		}
+		$('.notice').eq(k).css({zIndex:1}).animate({top:2},0);
+		$('.notice').eq( noticeCnt ).css({zIndex:2}).animate({top:62},0).animate({top:2},500);
+		*/

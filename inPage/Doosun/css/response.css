@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+@media all and (max-width:1700px){
+	#main #mainSlide .mainSlide-container .prev_arrow_wrap { top:50%; left:7.8003153%; margin-top:-50px; width:52px; height:100px; }
+	#main #mainSlide .mainSlide-container .next_arrow_wrap { top:50%; right:7.8003153%; margin-top:-50px; width:52px; height:100px; }
+}
+
+
+@media all and (max-width:1580px){
+	.wrap .gap { margin:0 15px; }
+	#main .thumbnail > ul > li > div { margin:15px; }
+	#main .thumbnail .cosmetic_container .cosmetic_view .cosmetic_wrap li.cosmetic_slide > div { margin:15px; }
+	
+	#main #mainSlide .mainSlide-container .prev_arrow_wrap { top:50%; left:5.8003153%; margin-top:-50px; width:52px; height:100px; }
+	#main #mainSlide .mainSlide-container .next_arrow_wrap { top:50%; right:5.8003153%; margin-top:-50px; width:52px; height:100px; }
+
+}
+
+@media all and (max-width:1330px){
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right { width:43%; }
+}
+
+@media all and (max-width:1200px){
+
+}
+
+@media all and (max-width:1280px){
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:20%; margin-top:-71.2px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:40px; font-weight:700; line-height: 120%; padding-bottom: 1%; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { font-size:14px; font-weight:500; line-height: 150%; }
+
+	#main #mainSlide .mainSlide-container .prev_arrow_wrap { top:50%; left:3.8003153%; margin-top:-50px; width:52px; height:100px; }
+	#main #mainSlide .mainSlide-container .next_arrow_wrap { top:50%; right:3.8003153%; margin-top:-50px; width:52px; height:100px; }
+
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right { width:46%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div { padding-top:10%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h2 { font-size:22px; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h3 { font-size:15px; padding:10px 0 20px 0; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div p  { font-size:13px; line-height:150%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div span  { font-size:13px; line-height:150%; }
+	
+	#main .sunEdu .container .sunEduImageBtn-wrap { height:23%; }
+
+	#footer .row1 ul li { width:33.333%; }
+	#footer .row1 ul li div { margin:0 10px; }
+	#footer .row1 ul li div a { height:100px; }
+	#footer .row1 ul li:nth-child(1) div a { background-size:60% auto; }
+	#footer .row1 ul li:nth-child(2) div a { background-size:60% auto; }
+	#footer .row1 ul li:nth-child(3) div a { background-size:60% auto; }
+	#footer .row1 ul li:nth-child(4) div a { background-size:60% auto; }
+	#footer .row1 ul li:nth-child(5) div a { background-size:60% auto; }
+	#footer .row1 ul li:nth-child(6) div a { background-size:60% auto; }
+	#footer .row1 ul li:nth-child(7) div a { background-size:60% auto; }
+	
+	#footer .row2 { padding:60px 0; }
+	#footer .row2 .container ul { width:auto; padding:0 30px; }	
+
+}
+
+@media all and (max-width:1150px){
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:20%; margin-top:-62.9px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:36px; font-weight:700; line-height: 120%; padding-bottom: 1%; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { font-size:12px; font-weight:500; line-height: 150%; }
+
+	/* #main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div span br { display: none; } */
+
+	#main .sunEdu .container .sunEduImageBtn-wrap { height:22%; }
+
+	#main .companyIntro .content .companyIntro-container .companyIntro-view { width:96%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li.companyIntro-inner > div > div.companyIntro-left .companyIntro-left2  { bottom:0; right:-15%; width:47.8612407%; height:auto; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li > div > div.companyIntro-right { float:right; width:48.6666667%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li > div > div.companyIntro-right div { padding:5% 0;/*박스의 내부 여백은 margin,padding / 너비 */ }
+}
+
+@media all and (max-width:1060px){
+	#main .companyIntro .content { z-index:1; position:relative; width:auto; height:100%; /* height:626.8px; */ /* js비율계산 */ border:4px solid #d18a00; background-color: #fff; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li.companyIntro-inner > div > div.companyIntro-left  { float:none; width:90.6666667%; margin:0 auto; margin-top:5%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li.companyIntro-inner > div > div.companyIntro-left .companyIntro-left2  { bottom:0; right:-10%; width:27.8612407%; height:auto; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li > div > div.companyIntro-right { float:none; width:90.6666667%; margin:0 auto; }
+	#main .sunEdu .container .sunEduImageBtn-wrap { display: none; }
+
+
+}
+
+@media all and (max-width:1024px){
+	#header ,
+	#header .container   { height:84px; }
+	#main #mainSlide { margin-top:84px; }
+	#header .logo { top:23px; margin-left:-68.5px; width:137px; height:38px; }
+	#header.addFixed .logo { top:7px; margin-left:-35px; width:70px; height:auto; }
+	#header          .logo a { padding:6px 0; }
+	
+	
+	#header .appBar { padding:33.5px 0; }
+	#header .appBar a > span:first-child { width:27px; height:17px; }	
+	#header .appBar a > span:last-child { display:none; }
+	#header          .appBar a > span i.appBarLine { height:2px; }
+	#header          .appBar a.addAppbar > span i.appBarLine0 { margin-top:-1px; }
+	#header          .appBar a > span i.appBarLine1 { margin-top:-1px; }
+	#header          .appBar a.addAppbar > span i.appBarLine2 { margin-bottom:-1px; }
+	
+	#header .aside ul { padding:23.5px 0; }
+	#header .aside ul li:first-child { display:none; }
+	
+	#header .gnb nav > ul > li > div > a { font-size:17px; padding:0 20px; }
+
+
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:17%; }
+	
+	#main .thumbnail ul li { width:50%; }	
+	#main .thumbnail > ul > li > div { margin:7.5px; }
+	#main .thumbnail .cosmetic_container .cosmetic_view .cosmetic_wrap li.cosmetic_slide > div { margin:7.5px; }
+	.wrap .gap { margin:0 10px; }	
+	
+	#main #mainSlide .mainSlide-container .prev_arrow_wrap ,
+	#main #mainSlide .mainSlide-container .next_arrow_wrap ,
+	#main #mainSlide .mainSlide-container .pageBtn-wrap ,
+	#main #mainSlide .mainSlide-container .next { display:none; }
+	
+
+	#main .sunEdu .container .sunEduImageBtn-wrap { height:21%; }
+	
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(1) { height:3px; }
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(2) { width: 3px; }
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(3) { height:3px; }
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(4) { width: 3px; }
+	
+	#footer .row1 ul li div { margin:10px 10px; }
+	#footer .row1 ul li div a { height:80px; }
+	#footer .row1 ul li:nth-child(1) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(2) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(3) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(4) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(5) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(6) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(7) div a { background-size:70% auto; }
+	
+	#footer .row2 { padding:50px 0; }
+	#footer .row2 .container ul { width:auto; padding:0 30px; }
+	#footer .row2 .container ul li { float:none; text-align:center; }
+	#footer .row2 .container ul li:first-child { width:100%; }
+	#footer .row2 .container ul li:first-child > div h1 { padding-bottom:40px; }
+	#footer .row2 .container ul li:first-child > div h1 a img { width:100%; max-width:150px; }
+	#footer .row2 .container ul li:last-child  { width:100%; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) { float:none; display:inline-block; padding-bottom:10px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) a { margin:0 15px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) a:first-child { margin-left:0; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) a:last-child  { margin-right:0; }
+	#footer .row2 .container ul li:last-child > div div > p { display:block; padding:15px 0; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) { float:none; display:inline-block; padding-bottom:10px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) a { margin:0 15px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) a:first-child { margin-left:0; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) a:last-child  { margin-right:0; }
+	#footer .row2 .container ul li:last-child > div div > span a { font-size:14px; }
+	#footer .row2 .container ul li:last-child > div address { font-size:12px; line-height:150%; padding-top:20px; }
+	#footer .row2 .container ul li:last-child > div address span { display:block; }
+	#footer .row2 .container ul li:last-child > div address span br { display:block; }
+	#footer .row2 .container ul li:last-child > div address span br:nth-child(2) { display:none; }
+
+	.modal-wrap > div.gap > div.container > ul > li { float:none; width: 100%; }
+	.modal-wrap > div.gap > div.container > ul > li:nth-child(1) > div { margin-bottom:25px; }	
+	
+	
+	
+}
+
+@media all and (max-width:1000px){
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:15%; margin-top:-57.9px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:32px; font-weight:700; line-height: 120%; padding-bottom: 1%; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { font-size:12px; font-weight:500; line-height: 150%; }
+
+	/* #main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div span { display: none; } */
+}
+
+@media all and (max-width:850px){
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:13%; margin-top:-52.9px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:28px; font-weight:700; line-height: 120%; padding-bottom: 1%; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { font-size:12px; font-weight:500; line-height: 150%; }
+
+	
+}
+
+@media all and (max-width:780px){	/* 780px 이하이면 ~ */
+	#header ,
+	#header .container   { height:60px; }
+	#main #mainSlide { margin-top:60px; }
+	#header .logo { top:15.5px; margin-left:-53.5px; width:107px; height:29px; }
+	#header.addFixed .logo { top:5px; margin-left:-25px; width:50px; height:auto; }
+	#header          .logo a { padding:4px 0; }
+	
+	#header .appBar { padding:21.5px 0; }
+	
+	#header .aside ul { display:none; }
+	#header .aside .tel { display:block; }
+	#header .wrap .gap { margin-right:0; }
+	
+	#header .gnb { top:-5px; height:auto; }
+	#header .gnb .wrap .gap { margin:0; }
+	#header .gnb .container { height:auto; }
+	
+	#header .gnb nav > ul { display:block; padding:20px 0; }
+	#header .gnb nav > ul > li { display:block; }
+	#header .gnb nav > ul > li > div { padding:8px 0; }
+	#header .gnb nav > ul > li > div > a { font-size:18px; line-height:100%; padding:0; }
+	#header .gnb nav > ul > li > div > a:hover { color:#fff; background:transparent; }
+	
+	#header .gnb nav > ul > li > div > .sub { display:block; position:relative; top:0; left:0; width:100%; height:auto; background:transparent; }
+	#header .gnb nav > ul > li > div > .sub > div { padding:15px 0 0 0; }
+	#header .gnb nav > ul > li > div > .sub > div > ul > li { display:block; }
+	#header .gnb nav > ul > li > div > .sub > div > ul > li > div { padding:3px 0; }
+	#header .gnb nav > ul > li > div > .sub > div > ul > li > div > a { font-size:16px; padding-bottom:0; color:#aaa; }
+	#header .gnb nav > ul > li > div > .sub > div > ul > li > div > a:hover { color:#fff; }
+	#header .gnb nav > ul > li > div > .sub > div > ul > li:nth-child(even) { display:none; }	/*li의 짝수만 없애기*/
+
+	.content-title h2 { font-size:28px; }
+
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:10%; margin-top:-44.5px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:24px; font-weight:700; line-height: 120%; padding-bottom: 1%; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { font-size:10px; font-weight:500; line-height: 150%; }
+
+	#main .companyIntro .goSite_wrap span a { padding:8px 20px; font-size: 12px; }
+
+	#main #lastSection .wrap .gap .container .content-title h2 { font-size:28px; }
+
+
+}
+
+
+
+
+@media all and (max-width:760px){
+	
+	#main .thumbnail,
+	#main .companyIntro,
+	#main #equipmentIntro { padding:30px 0; }
+	#main #lastSection { padding:30px 0 0 0; }
+	
+	.content-title { padding:40px 0; }
+	.content-title h2 { font-size:26px; }
+	#main #lastSection .wrap .gap .container .content-title h2 { font-size:26px; }
+	.content-title h3 { padding-top:7px; }
+	.content-title h4 { padding-top:10px; font-size:14px; margin:0 25px; }
+	
+	#main .companyIntro .content-title { padding-bottom:90px; }
+	
+	#main .companyIntro .content { border:2px solid #d18a00; }
+	/* #main .companyIntro .content .companyIntro-container .companyIntro-view { width:100%; } */
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li.companyIntro-inner > div > div.companyIntro-left  { float:none; width:95.6666667%; margin:0 auto; margin-top:4%; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li.companyIntro-inner > div > div.companyIntro-left .companyIntro-left2  { bottom:0; right:-6.5%; width:27.8612407%; height:auto; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap > li > div > div.companyIntro-right { float:none; width:95.6666667%; margin:0 auto; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div { padding:3% 0; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h2 { font-size:18px; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h3 { font-size:14px; padding:7px 0 15px 0; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div p  { font-size:12px; line-height:140%; }
+	#main .companyIntro .arrow { transform:scale(0.8); bottom:-4.1px; right:-8.2px; }
+	#main .companyIntro .sunEduImageBtn-wrap { display:none; }
+	
+	
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(1) { height:2px; }
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(2) { width: 2px; }
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(3) { height:2px; }
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div .equipmentIntro-content > div .border i:nth-child(4) { width: 2px; }
+	
+	#footer .row1 ul li div { margin:10px 10px; }
+	#footer .row1 ul li div a { height:80px; }
+	#footer .row1 ul li:nth-child(1) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(2) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(3) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(4) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(5) div a { background-size:70% auto; }
+	#footer .row1 ul li:nth-child(6) div a { background-size:70% auto; }		
+	#footer .row1 ul li:nth-child(7) div a { background-size:70% auto; }		
+
+}
+
+
+@media all and (max-width:600px){
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:10%; margin-top:-40.5px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:20px; font-weight:700; line-height: 120%; padding-bottom: 1%; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { font-size:10px; font-weight:500; line-height: 150%; }
+
+	
+	
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h2 { font-size:16px; /* white-space:nowrap; overflow:hidden; text-overflow:ellipsis; */ }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h3 { font-size:14px; padding:7px 0 15px 0; /* white-space:nowrap; overflow:hidden; text-overflow:ellipsis; */ }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div p  { /* white-space:nowrap; overflow:hidden; text-overflow:ellipsis; */ }
+	
+	#footer .row1 ul li div a { height:60px; }
+	#footer .row1 ul li:nth-child(1) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(2) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(3) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(4) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(5) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(6) div a { background-size:80% auto; }		
+	#footer .row1 ul li:nth-child(7) div a { background-size:80% auto; }		
+
+}
+
+
+
+/* 해상도가 900px 이하면서(그리고 and), 폰 방향이 가로방향인 경우 */
+/* js : window.orientation: 90 또는 -90 : 가로방향( landscape )*/
+/* js : window.orientation: 0 또는 180 : 세로방향( portrait )*/
+@media all and (max-width:1024px) and (orientation:landscape) {
+	#header .gnb { height:auto;  overflow-y:scroll; }
+	.modal-wrap > div.gap > div.container > ul > li { float:left; width: 50%; }
+}
+
+
+
+@media all and (max-width:500px){
+	
+	.goTop-wrap { bottom:15px; right:15px; width:30px; height:30px; }
+	.goTop-wrap a.goTopBtn i { font-size:18px; padding:6px 0; }
+
+	#main .thumbnail,
+	#main .companyIntro,
+	#main #equipmentIntro { padding:20px 0; }
+	#main #lastSection { padding:20px 0 0 0; }
+	
+	.content-title { padding:30px 0; }
+	.content-title h2 { font-size:22px; }
+	#main #lastSection .wrap .gap .container .content-title h2 { font-size:22px; }
+	.content-title h3 { padding-top:5px; }
+	.content-title h4 { padding-top:8px; font-size:13px; margin:0 10px; }
+	.content-title h5 { font-size:12px; }
+	
+	#main .companyIntro .content-title { padding-bottom:60px; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div { padding-top:7%;/*박스의 내부 여백은 margin,padding / 너비 */ }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h2 { font-size:14px; font-weight:600; color:#d18a00; }
+	#main .companyIntro .content .companyIntro-container .companyIntro-view .companyIntro-wrap li > div > div.companyIntro-right div h3 { font-size:10px; padding:7px 0 10px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+	
+	#main .thumbnail ul li { width:100%; }
+	#main .thumbnail > ul > li > div { margin:5px 10px; }
+	#main .thumbnail .cosmetic_container .cosmetic_view .cosmetic_wrap li.cosmetic_slide > div { margin:5px 10px; }
+	.wrap .gap { margin:0 10px; }
+
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:9%; margin-top:-25px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:18px; font-weight:700; line-height: 140%; padding-bottom: 0; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { display: none; /* font-size:10px; font-weight:500; line-height: 150%; */ }
+
+	#main .companyIntro .goSite_wrap span a { padding:6px 14px; font-size: 10px; }	
+	
+	#main #equipmentIntro .content .equipmentIntro-container .equipmentIntro-view .equipmentIntro-wrap li.equipmentIntro-inner > div { margin:10px; }
+	
+	#footer .row1 ul li { width:50%; }
+	
+	#footer .row1 ul li div a { height:40px; }
+	#footer .row1 ul li:nth-child(1) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(2) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(3) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(4) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(5) div a { background-size:80% auto; }
+	#footer .row1 ul li:nth-child(6) div a { background-size:80% auto; }	
+	#footer .row1 ul li:nth-child(7) div a { background-size:80% auto; }	
+
+	#footer .row2 { padding:40px 0; }
+	#footer .row2 .container ul { width:auto; padding:0 10px; }
+	
+	#footer .row2 .container ul li { float:none; text-align:center; }
+	#footer .row2 .container ul li:first-child { width:100%; }
+	#footer .row2 .container ul li:last-child { width:100%; }
+	
+	#footer .row2 .container ul li:first-child > div h1 { padding-bottom:30px; }
+	#footer .row2 .container ul li:first-child > div h1 a img { width:100%; max-width:130px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) { float:none; display:inline-block; padding-bottom:7px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) a { margin:0 10px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) a:first-child { margin-left:0; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(1) a:last-child  { margin-right:0; }
+	
+	#footer .row2 .container ul li:last-child > div div > p { display:block; padding:15px 0; }
+	
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) { float:none; display:inline-block; padding-bottom:7px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) a { margin:0 10px; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) a:first-child { margin-left:0; }
+	#footer .row2 .container ul li:last-child > div div > span:nth-child(3) a:last-child  { margin-right:0; }
+	#footer .row2 .container ul li:last-child > div div > span a { font-size:13px; }
+	
+	#footer .row2 .container ul li:last-child > div address { font-size:11px; line-height:140%; padding-top:15px; }
+	#footer .row2 .container ul li:last-child > div address span { display:block; }
+	#footer .row2 .container ul li:last-child > div address span br { display:block; }
+
+	.modal-wrap > div.gap > div.container > ul > li > div { margin:0 15px; }
+	
+}
+
+
+@media all and (max-width:400px){
+	.content-title h2 { font-size:18px; }
+
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title { top:50%; left:8%; margin-top:-22px; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h2 { font-size:16px; font-weight:700; line-height: 140%; padding-bottom: 0; }
+	#main #mainSlide .mainSlide-container .mainSlide-view .mainSlide-wrap .slide a > .title h3 { display: none; /* font-size:10px; font-weight:500; line-height: 150%; */ }	
+
+	#main #lastSection .wrap .gap .container .content-title h2 { font-size:18px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

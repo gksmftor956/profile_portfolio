@@ -1,0 +1,97 @@
+슬라이드 만들기 순서
+$(function(){
+	var cnt = 0;	//숫자가 증가 또는 감소하는 변수는 반드시 초기값 변수를 설정한다.
+
+		
+		
+		//5-1. 페이지 버튼 클릭 이벤트 - 페이지 버튼 표시(mark) 이벤트 함수 호출
+		$('.pageBtn').eq(0).on({	//첫번째 슬라이드 호출
+			click:	function(){
+				cnt = 0;
+				mainSlideFn();
+				pageBtnEventFn(0);	//클릭한 버튼 번호(index) 값을 매개변수 값으로 전달
+			}
+		});
+		//5-2. 페이지 버튼 클릭 이벤트 - 페이지 버튼 표시(mark) 이벤트 함수 호출
+		$('.pageBtn').eq(1).on({	//두번째 슬라이드 호출
+			click:	function(){
+				cnt = 1;
+				mainSlideFn();
+				pageBtnEventFn(1);	//클릭한 버튼 번호(index) 값을 매개변수 값으로 전달
+			}
+		});
+		
+		
+		//4-1. 페이지 버튼 표시(mark) 이벤트 함수 - 현재 슬라이드 번호에 녹색버튼으로 표시
+		// 메인 슬라이드 함수에서 - 함수 호출
+		// 페이지버튼 클릭 - 함수 호출
+		// 페이지 버튼 자식 요소(children())의 이미지 src 속성(attr ; attribute)을 변경 표시
+		//			부모 요소(parent())
+		function pageBtnEventFn(z){	//0이나 또는 cnt 값이 전달 받는다. z변수로
+			$('.pageBtn').children().attr('src','./img/main_prom_off.png');	//버튼 자식 요소 모두 초기화
+			$('.pageBtn').eq(z).children().attr('src','./img/main_prom_on.png');	//현재 슬라이드 번호만 on
+		}
+		
+		
+		//3-1. 다음 슬라이드 화살이미지 버튼(선택자) 사용(on) 클릭(click) 이벤트 -> 다음 슬라이드 카운트 함수 호출()
+		$('.nextBtn').on({
+			click:	function(){
+				// 부정문!: 애니메이션이 진행 중이 아닐때 다음 슬라이드 카운트 함수를 호출한다. - 조건문 과거형 animated
+				if( !$('.section3-slide-wrap').is(':animated') ){
+					nextSlideCountFn();
+				}
+				else{	//else : 아니면~, 그 밖에~, 그 외에~ 애니메이션이 진행 중인 경우 버튼 클릭을 취소
+					return false;	//버튼 클릭을 취소 false 거짓 == 0(off) true == 1(on)
+				}
+			}
+		});
+		//3-2. 이전 슬라이드 화살이미지 버튼(선택자) 사용(on) 클릭(click) 이벤트 -> 이전 슬라이드 카운트 함수 호출()
+		$('.prevBtn').on({
+			click:	function(){
+				// 부정문!: 애니메이션이 진행 중이 아닐때 이전 슬라이드 카운트 함수를 호출한다. - 조건문 과거형 animated
+				if( !$('.section3-slide-wrap').is(':animated') ){
+					prevSlideCountFn();
+				}
+				else{
+					return false;	//버튼 클릭을 취소 false 거짓 == 0(off) true == 1(on)
+				}
+			}
+		});
+	
+	
+		//2-1. 다음 슬라이드(nextSlide) 카운트(cnt++) 함수를 만든다. : 우측에서 좌측으로 이동(좌측으로 당기는 효과)
+		function nextSlideCountFn(){
+			cnt++;
+			mainSlideFn();
+		}
+		//2-2. 이젠 슬라이드(prevSlide) 카운트(cnt--) 함수를 만든다. : 좌측에서 우측으로 이동(우측으로 당기는 효과)
+		function prevSlideCountFn(){
+			cnt--;
+			mainSlideFn();
+		}
+		
+		
+		//1. 메인슬라이드 함수(Fn ; Function)를 만든다.
+		function mainSlideFn(){
+			$('.section3-slide-wrap').stop().animate({left:-(819*cnt)},500, function(){
+				//마지막 슬라이드를 초과한 경우에 초기화 - 조건문 if문
+				//if(조건){참인경우내용}
+				if( cnt > 1 ){ // cnt >= 2
+					cnt = 0; //첫번째 슬라이드로 초기화
+				}
+				//첫번째 슬라이드 미만인 경우에 초기화
+				if( cnt < 0 ){ // cnt <= -1
+					cnt = 1; //마지막 슬라이드로 초기화
+				}
+				$('.section3-slide-wrap').stop().animate({left:-(819*cnt)},0);
+			});
+			//4-2. 페이지버튼 이벤트 조건문
+			if( cnt > 1 ){ // cnt >= 2
+				pageBtnEventFn(0);	//매개변수 값 전달
+			}
+			else{
+				pageBtnEventFn(cnt);	//매개변수 값 전달
+			}
+		}
+		
+});

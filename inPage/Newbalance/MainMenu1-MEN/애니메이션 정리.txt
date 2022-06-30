@@ -1,0 +1,24 @@
+sec2
+1번 이미지,텍스트
+top:70 / -70	right:0 / 220
+left:0 / 220	
+
+sec2번
+t: 130 / 0		l: 0 / 220
+r: 0 / 220
+
+sec4번
+왼쪽이미지
+t:-55 / 50
+오른쪽리스트
+t:0 / 150 easyinout
+
+4번 라이브핏 리스트
+t:150 / 0 easyinout
+
+5번
+sec5-tag-listBtn0 클릭 시 sec5-tag-item-slide0 나오기 (기본)
+sec5-tag-listBtn1 클릭 시 sec5-tag-item-slide1 나오기 
+sec5-tag-listBtn2 클릭 시 sec5-tag-item-slide2 나오기 
+sec5-tag-listBtn3 클릭 시 sec5-tag-item-slide3 나오기 
+sec5-tag-listBtn4 클릭 시 sec5-tag-item-slide4 나오기 
