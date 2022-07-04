@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 { font-size:14px; font-weight:normal; font-family: 'Montserrat
 i,em,address { font-style:normal; }
 img { vertical-align:top; }
 a { display:inline-block; text-decoration:none; color:#626262; }
-a:focus { outline:1px solid rgba(200,200,200, .5); outline-offset:5px; }
+/* a:focus { outline:1px solid rgba(200,200,200, .5); outline-offset:5px; } */
 ul,li { list-style:none; }
 select,
 input[type='text'],
