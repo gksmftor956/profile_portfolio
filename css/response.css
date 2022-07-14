@@ -5,6 +5,11 @@
     .appBar.addAppBar { right:30px; }
 }
 
+@media all and (max-width:1800px){
+    #slide3d_Section{display:none;}
+}
+
+
 @media all and (max-width:1250px){
     #main #gallerySection .wrap .gap .container > ul > li { margin-bottom:50px; }
 }
