@@ -13,16 +13,16 @@
                 if( index==0 ){
                     $('html, body').stop().animate({ scrollTop:$('#mainSection').offset().top },1000);
                 }
-                else if( index==1 ){
+/*                 else if( index==1 ){
                     $('html, body').stop().animate({ scrollTop:$('#profileSection').offset().top },1000);
-                }
-                else if( index==2 ){
+                } */
+                else if( index==1 ){
                     $('html, body').stop().animate({ scrollTop:$('#gallerySection').offset().top },1000);
                 }
-                else if( index==3 ){
+                else if( index==2 ){
                     $('html, body').stop().animate({ scrollTop:$('#slideSection').offset().top },1000);
                 }
-                else if( index==4 ){
+                else if( index==3 ){
                     $('html, body').stop().animate({ scrollTop:$('#slide3d_Section').offset().top },1000);
                 }
             }
@@ -34,16 +34,16 @@
                 if( index==0 ){
                     $('html, body').stop().animate({ scrollTop:$('#mainSection').offset().top },1000);
                 }
-                else if( index==1 ){
+/*                 else if( index==1 ){
                     $('html, body').stop().animate({ scrollTop:$('#profileSection').offset().top },1000);
-                }
-                else if( index==2 ){
+                } */
+                else if( index==1 ){
                     $('html, body').stop().animate({ scrollTop:$('#gallerySection').offset().top },1000);
                 }
-                else if( index==3 ){
+                else if( index==2 ){
                     $('html, body').stop().animate({ scrollTop:$('#slideSection').offset().top },1000);
                 }
-                else if( index==4 ){
+                else if( index==3 ){
                     $('html, body').stop().animate({ scrollTop:$('#slide3d_Section').offset().top },1000);
                 }
             }
