@@ -72,9 +72,55 @@
     //////////////////////////////////////////////////////////////////////////////////////////
     //메인섹션
     $(window).ready(function(){
-        $('.mainTitle').stop().animate({ marginTop:-100, opacity:1 },1000);
+        $('.mainTitle').stop().animate({ marginTop:-200, opacity:1 },1000);
     });
 
+    var winW  = 0;
+    var winH  = 0;
+    var vidW  = 0;
+    var vidH  = 0;
+    var marT  = 0;
+    var marL  = 0;
+    var setId = 0;
+    var player = 0;
+    var sound = 'off'; //꺼진상태임.
+    var videoId = 0;
+        
+        setInterval(resizefn,100);
+
+        //비디오 반응형 함수
+        function resizefn(){
+            winW = $(window).innerWidth();
+            winH = $(window).innerHeight();
+            vidW = $('.mainVideo').innerWidth();
+            vidH = $('.mainVideo').innerHeight();
+            //marT = (winH-vidH)/2;
+            marT = (winH-vidH);
+            marL = (winW-vidW)/2;
+            
+            
+            
+
+            $('#mainSection .content').css({ height: winH });
+
+            //창너비가 비디오너비보다 크면 : 비디오너비를 창너비로 설정 높이를 'auto'                        
+            if( winW > vidW ){
+                $('.mainVideo').css({ width: winW, height: 'auto' });
+            }
+            //창높이가 비디오높이보다 크면 : 비디오높이를 창높이로 설정 너비는 'auto'
+            if( winH > vidH ){
+                $('.mainVideo').css({ width: 'auto', height: winH });
+            }
+            $('.mainVideo').css({ marginTop: marT, marginLeft: marL });
+            
+            
+
+        }
+        //BOM
+        $(window).resize(function(){
+            clearTimeout(setId);
+            setId = setTimeout(resizefn,10);
+        });
 
     //////////////////////////////////////////////////////////////////////////////////////////
     //갤러리
